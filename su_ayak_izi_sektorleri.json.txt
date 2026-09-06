@@ -1,0 +1,262 @@
+[
+  {
+    "Sektör": "1. TEKSTİL VE HAZIR GİYİM",
+    "Süreç": "Pamuk Yetiştiriciliği ve Hasadı",
+    "Su Yoğunluğu": "Çok Yüksek",
+    "Su Ayak İzi Türü": "Karma",
+    "Başlıca Su Riski": "Su kıtlığı yaşanan kurak/yarı kurak bölgelerde yoğun sulama bağımlılığı",
+    "İlgili Standartlar": "Better Cotton Initiative, AWS Standard, ISO 14046",
+    "Azaltım Uygulamaları": "Damla sulama, kuraklığa dayanıklı çeşit seçimi, toprak nemi izleme",
+    "Açıklama": "Pamuk, birim ürün başına en yüksek su ayak izine sahip tarımsal ürünlerden biridir; büyük kısmı sulama kaynaklıdır."
+  },
+  {
+    "Sektör": "1. TEKSTİL VE HAZIR GİYİM",
+    "Süreç": "Kumaş Boyama ve Terbiye (Islak İşlemler)",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Gri Su",
+    "Başlıca Su Riski": "Boyar madde ve kimyasal içerikli atık suyun arıtılmadan deşarjı",
+    "İlgili Standartlar": "ZDHC, bluesign, ISO 14046",
+    "Azaltım Uygulamaları": "Kapalı devre su geri kazanım sistemleri, düşük sulu boyama teknolojileri",
+    "Açıklama": "Tekstil terbiye proseslerinde birim kumaş başına yüksek miktarda su tüketilir ve arıtılmayan su ciddi kirletici yük taşır."
+  },
+  {
+    "Sektör": "1. TEKSTİL VE HAZIR GİYİM",
+    "Süreç": "Kot Kumaşı Yıkama ve Ağartma",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Karma",
+    "Başlıca Su Riski": "Taş yıkama ve kimyasal ağartma proseslerinde yüksek su tüketimi",
+    "İlgili Standartlar": "ZDHC, bluesign",
+    "Azaltım Uygulamaları": "Ozon ile ağartma, lazer aşındırma, su geri kullanım sistemleri",
+    "Açıklama": "Konvansiyonel kot yıkama, sektördeki en su yoğun proseslerden biridir."
+  },
+  {
+    "Sektör": "2. GIDA VE İÇECEK",
+    "Süreç": "Meyve ve Sebze İşleme",
+    "Su Yoğunluğu": "Orta",
+    "Su Ayak İzi Türü": "Karma",
+    "Başlıca Su Riski": "Yıkama ve haşlama proseslerinde yüksek su kullanımı, organik yüklü atık su",
+    "İlgili Standartlar": "GRI 303, ISO 14046",
+    "Azaltım Uygulamaları": "Kuru temizleme ön işlemleri, proses suyunun kademeli yeniden kullanımı",
+    "Açıklama": "Yıkama, ayıklama ve haşlama gibi işlemler önemli miktarda su gerektirir; atık su organik madde açısından zengindir."
+  },
+  {
+    "Sektör": "2. GIDA VE İÇECEK",
+    "Süreç": "Süt ve Süt Ürünleri Üretimi",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Gri Su",
+    "Başlıca Su Riski": "Ekipman temizliği (CIP) için yoğun su ve kimyasal kullanımı",
+    "İlgili Standartlar": "GRI 303, ISO 14046",
+    "Azaltım Uygulamaları": "Kuru ön temizlik, CIP suyunun geri kazanımı, membran filtrasyon",
+    "Açıklama": "Süt işleme tesislerinde, üretilen süt hacminin birkaç katı su yalnızca ekipman temizliği için tüketilebilir."
+  },
+  {
+    "Sektör": "2. GIDA VE İÇECEK",
+    "Süreç": "Şeker Üretimi (Pancar/Kamış İşleme)",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Karma",
+    "Başlıca Su Riski": "Hem tarımsal sulama hem işleme aşamasında yüksek su talebi",
+    "İlgili Standartlar": "Bonsucro, ISO 14046",
+    "Azaltım Uygulamaları": "Proses suyunun kapalı devre kullanımı, damla sulama",
+    "Açıklama": "Şeker pancarı ve kamışı yetiştiriciliği yüksek sulama gerektirebilir; işleme aşamasında da yıkama ve ekstraksiyon için su kullanılır."
+  },
+  {
+    "Sektör": "2. GIDA VE İÇECEK",
+    "Süreç": "Bira ve Alkollü İçecek Üretimi",
+    "Su Yoğunluğu": "Orta",
+    "Su Ayak İzi Türü": "Karma",
+    "Başlıca Su Riski": "Şişe/ekipman yıkama ve soğutma süreçlerinde su tüketimi",
+    "İlgili Standartlar": "GRI 303, CDP Su Güvenliği",
+    "Azaltım Uygulamaları": "Su geri kazanım sistemleri, düşük sulu CIP teknolojileri",
+    "Açıklama": "Üretilen birim içecek başına önemli miktarda su, esas olarak yıkama ve soğutma amaçlı kullanılır."
+  },
+  {
+    "Sektör": "3. TARIM VE HAYVANCILIK",
+    "Süreç": "Sulu Tarım (Pirinç, Pamuk gibi Su Yoğun Ürünler)",
+    "Su Yoğunluğu": "Çok Yüksek",
+    "Su Ayak İzi Türü": "Mavi Su",
+    "Başlıca Su Riski": "Sürekli su altında tutulan arazilerde yüksek buharlaşma ve sızma kayıpları",
+    "İlgili Standartlar": "AWS Standard, ISO 14046",
+    "Azaltım Uygulamaları": "Alternatif Islatma ve Kurutma (AWD) yöntemi, lazer dümdüzleştirme",
+    "Açıklama": "Sürekli su altında yetiştirilen ürünler, birim alan başına en yüksek su tüketimine sahip tarımsal uygulamalardandır."
+  },
+  {
+    "Sektör": "3. TARIM VE HAYVANCILIK",
+    "Süreç": "Büyükbaş Hayvancılık (Et ve Süt)",
+    "Su Yoğunluğu": "Çok Yüksek",
+    "Su Ayak İzi Türü": "Yeşil Su",
+    "Başlıca Su Riski": "Yem bitkisi yetiştiriciliğinin dolaylı su ayak izinin, doğrudan içme suyundan çok daha büyük olması",
+    "İlgili Standartlar": "GRI 303, ISO 14046",
+    "Azaltım Uygulamaları": "Yem verimliliğinin artırılması, mera yönetiminin iyileştirilmesi",
+    "Açıklama": "Büyükbaş hayvancılığın su ayak izinin büyük kısmı, hayvanın içtiği sudan değil, yem üretiminde kullanılan sulamadan kaynaklanır."
+  },
+  {
+    "Sektör": "3. TARIM VE HAYVANCILIK",
+    "Süreç": "Sera ve Örtü Altı Tarım",
+    "Su Yoğunluğu": "Düşük",
+    "Su Ayak İzi Türü": "Mavi Su",
+    "Başlıca Su Riski": "Yoğun üretim bölgelerinde yerel su kaynakları üzerinde noktasal baskı",
+    "İlgili Standartlar": "AWS Standard, GlobalG.A.P.",
+    "Azaltım Uygulamaları": "Damla sulama, kapalı döngü hidroponik sistemler, drenaj suyu geri kazanımı",
+    "Açıklama": "Kontrollü ortam koşulları sayesinde açık alan tarımına kıyasla birim ürün başına genellikle daha az su tüketilir."
+  },
+  {
+    "Sektör": "4. MADENCİLİK VE METALLER",
+    "Süreç": "Bakır Madenciliği ve Cevher Zenginleştirme",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Mavi Su",
+    "Başlıca Su Riski": "Su kıtlığı yaşanan kurak bölgelerde faaliyet, atık barajı sızıntı riski",
+    "İlgili Standartlar": "ICMM, AWS Standard",
+    "Azaltım Uygulamaları": "Deniz suyu kullanımı/desalinasyon, proses suyu geri kazanımı, kuru zenginleştirme",
+    "Açıklama": "Cevher zenginleştirme ve flotasyon süreçleri yüksek miktarda su gerektirir; çoğu büyük bakır yatağı su stresi yüksek bölgelerde bulunur."
+  },
+  {
+    "Sektör": "4. MADENCİLİK VE METALLER",
+    "Süreç": "Kömür Madenciliği",
+    "Su Yoğunluğu": "Orta",
+    "Su Ayak İzi Türü": "Karma",
+    "Başlıca Su Riski": "Maden drenaj suyunun yerel su kaynaklarını kirletme riski",
+    "İlgili Standartlar": "ICMM, GRI 303",
+    "Azaltım Uygulamaları": "Maden suyu arıtma ve geri kazanım tesisleri, sahaların rehabilitasyonu",
+    "Açıklama": "Yeraltı suyu kontrolü ve toz bastırma için su kullanılır; drenaj suyu kirletici içerebilir."
+  },
+  {
+    "Sektör": "4. MADENCİLİK VE METALLER",
+    "Süreç": "Alüminyum Üretimi (Boksit İşleme)",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Gri Su",
+    "Başlıca Su Riski": "Yüksek pH'lı kırmızı çamur atığının su kaynaklarına sızma riski",
+    "İlgili Standartlar": "Aluminium Stewardship Initiative, ISO 14046",
+    "Azaltım Uygulamaları": "Kırmızı çamurun kuru istifleme yöntemiyle depolanması, proses suyu geri kazanımı",
+    "Açıklama": "Alümina rafinasyonu yüksek miktarda su kullanır ve yönetimi zor, alkali bir atık üretir."
+  },
+  {
+    "Sektör": "5. ENERJİ ÜRETİMİ",
+    "Süreç": "Termik Santraller (Soğutma Suyu)",
+    "Su Yoğunluğu": "Çok Yüksek",
+    "Su Ayak İzi Türü": "Mavi Su",
+    "Başlıca Su Riski": "Soğutma suyu çekiminin yerel ekosistemler üzerindeki etkisi, termal kirlilik riski",
+    "İlgili Standartlar": "GRI 303, CDP Su Güvenliği",
+    "Azaltım Uygulamaları": "Kapalı devre (kule) soğutma sistemlerine geçiş, kuru soğutma teknolojileri",
+    "Açıklama": "Açık devre soğutma sistemi kullanan termik santraller, üretilen birim elektrik başına çok yüksek miktarda su çeker."
+  },
+  {
+    "Sektör": "5. ENERJİ ÜRETİMİ",
+    "Süreç": "Hidroelektrik Santraller",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Mavi Su",
+    "Başlıca Su Riski": "Rezervuar yüzeyinden buharlaşma kaybı, akış rejiminin değişmesi",
+    "İlgili Standartlar": "Hydropower Sustainability Standard, GRI 303",
+    "Azaltım Uygulamaları": "Rezervuar yüzey alanının optimize edilmesi, çevresel akış taahhütleri",
+    "Açıklama": "Rezervuar yüzeyinden buharlaşma, hidroelektrik üretiminin dolaylı ama önemli bir su ayak izi bileşenidir."
+  },
+  {
+    "Sektör": "5. ENERJİ ÜRETİMİ",
+    "Süreç": "Biyoyakıt Üretimi",
+    "Su Yoğunluğu": "Çok Yüksek",
+    "Su Ayak İzi Türü": "Karma",
+    "Başlıca Su Riski": "Hammadde yetiştiriciliğinin yüksek sulama ihtiyacı",
+    "İlgili Standartlar": "Bonsucro, RSB",
+    "Azaltım Uygulamaları": "Yağmura dayalı hammadde tercihi, ikinci nesil biyoyakıt teknolojileri",
+    "Açıklama": "Biyoyakıtların su ayak izi büyük ölçüde hammadde tarımındaki sulama ihtiyacından kaynaklanır ve fosil yakıtlardan belirgin şekilde yüksektir."
+  },
+  {
+    "Sektör": "6. KAĞIT VE SELÜLOZ",
+    "Süreç": "Kağıt Hamuru (Kraft Prosesi) Üretimi",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Gri Su",
+    "Başlıca Su Riski": "Ağartma proseslerinden kaynaklanan klorlu bileşiklerin deşarjı",
+    "İlgili Standartlar": "FSC, ISO 14046",
+    "Azaltım Uygulamaları": "Klorsuz ağartma (TCF/ECF) teknolojileri, kapalı devre su sistemleri",
+    "Açıklama": "Odun hamurunun kimyasal olarak ayrıştırılması ve ağartılması yüksek miktarda su ve kimyasal kullanır."
+  },
+  {
+    "Sektör": "6. KAĞIT VE SELÜLOZ",
+    "Süreç": "Geri Dönüştürülmüş Kağıt Üretimi",
+    "Su Yoğunluğu": "Orta",
+    "Su Ayak İzi Türü": "Gri Su",
+    "Başlıca Su Riski": "Mürekkep giderme (deinking) prosesinden kaynaklanan kirletici yük",
+    "İlgili Standartlar": "ISO 14046, GRI 303",
+    "Azaltım Uygulamaları": "Proses suyunun kademeli devrede kullanımı, elyaf geri kazanım sistemleri",
+    "Açıklama": "Birincil hamur üretimine kıyasla genellikle daha az su tüketir, ancak mürekkep giderme aşaması kirletici yük oluşturur."
+  },
+  {
+    "Sektör": "7. KİMYA VE PETROKİMYA",
+    "Süreç": "Petrol Rafinajı",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Karma",
+    "Başlıca Su Riski": "Soğutma ve proses suyu ihtiyacı, yağlı atık su arıtımı zorluğu",
+    "İlgili Standartlar": "IPIECA su yönetim kılavuzları, ISO 14046",
+    "Azaltım Uygulamaları": "Atık su geri kazanım ve yeniden kullanım sistemleri, deniz suyu soğutma",
+    "Açıklama": "Rafineri proseslerinde soğutma ve ayrıştırma amaçlı yoğun su kullanılır; atık su genellikle yağ ve kimyasal içerir."
+  },
+  {
+    "Sektör": "7. KİMYA VE PETROKİMYA",
+    "Süreç": "Gübre Üretimi (Azotlu/Fosfatlı)",
+    "Su Yoğunluğu": "Orta",
+    "Su Ayak İzi Türü": "Karma",
+    "Başlıca Su Riski": "Fosfatlı gübre üretiminde fosfojips atığının su kaynakları üzerindeki kirletme riski",
+    "İlgili Standartlar": "ISO 14046, GRI 303",
+    "Azaltım Uygulamaları": "Proses suyu geri kazanımı, atık yönetimi iyileştirmeleri",
+    "Açıklama": "Gübre üretim prosesleri soğutma ve reaksiyon aşamalarında su kullanır; bazı prosesler kirletici potansiyeli yüksek yan ürünler oluşturur."
+  },
+  {
+    "Sektör": "7. KİMYA VE PETROKİMYA",
+    "Süreç": "Plastik Hammadde (Polimer) Üretimi",
+    "Su Yoğunluğu": "Orta",
+    "Su Ayak İzi Türü": "Mavi Su",
+    "Başlıca Su Riski": "Petrokimya tesislerinin soğutma suyu ihtiyacı",
+    "İlgili Standartlar": "ISO 14046, CDP Su Güvenliği",
+    "Azaltım Uygulamaları": "Hava soğutmalı sistemlere geçiş, su geri kazanım döngüleri",
+    "Açıklama": "Polimerizasyon proseslerinde esas olarak soğutma amaçlı su kullanılır."
+  },
+  {
+    "Sektör": "8. ELEKTRONİK VE YARI İLETKEN",
+    "Süreç": "Yarı İletken (Çip) Üretimi (Ultra Saf Su)",
+    "Su Yoğunluğu": "Çok Yüksek",
+    "Su Ayak İzi Türü": "Mavi Su",
+    "Başlıca Su Riski": "Ultra saf su üretiminin kendisi yoğun su ve enerji gerektirir; su kıtlığı yaşanan üretim bölgelerinde risk yüksektir",
+    "İlgili Standartlar": "Responsible Business Alliance, ISO 14046",
+    "Azaltım Uygulamaları": "Ultra saf su geri kazanım sistemleri, proses suyu yeniden kullanım oranının artırılması",
+    "Açıklama": "Gofretlerin yıkanması için gerekli ultra saf su, standart içme suyundan çok daha yoğun bir arıtma sürecinden geçer ve büyük hacimlerde tüketilir."
+  },
+  {
+    "Sektör": "8. ELEKTRONİK VE YARI İLETKEN",
+    "Süreç": "Baskılı Devre Kartı (PCB) Üretimi",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Gri Su",
+    "Başlıca Su Riski": "Metal kaplama ve aşındırma proseslerinden kaynaklanan ağır metal içerikli atık su",
+    "İlgili Standartlar": "Responsible Business Alliance, ISO 14046",
+    "Azaltım Uygulamaları": "Kapalı devre durulama sistemleri, ağır metal geri kazanım teknolojileri",
+    "Açıklama": "Kaplama ve aşındırma aşamalarında kullanılan su, ağır metal içerebileceğinden dikkatli arıtma gerektirir."
+  },
+  {
+    "Sektör": "9. DERİ İŞLEME (TABAKLAMA)",
+    "Süreç": "Ham Deri Tabaklama Prosesi",
+    "Su Yoğunluğu": "Çok Yüksek",
+    "Su Ayak İzi Türü": "Gri Su",
+    "Başlıca Su Riski": "Krom bazlı tabaklama kimyasallarının ve organik yükün su kaynaklarına deşarj riski",
+    "İlgili Standartlar": "Leather Working Group, ZDHC",
+    "Azaltım Uygulamaları": "Kromsuz tabaklama alternatifleri, atık su arıtma ve geri kazanım tesisleri",
+    "Açıklama": "Tabaklama, deri sektöründeki en su ve kimyasal yoğun prosestir; arıtılmamış atık su ciddi kirlilik riski taşır."
+  },
+  {
+    "Sektör": "10. VERİ MERKEZLERİ (SOĞUTMA)",
+    "Süreç": "Buharlaşmalı Soğutma Sistemli Veri Merkezleri",
+    "Su Yoğunluğu": "Yüksek",
+    "Su Ayak İzi Türü": "Mavi Su",
+    "Başlıca Su Riski": "Su stresi yüksek bölgelerde yerel su kaynakları üzerindeki rekabetçi baskı",
+    "İlgili Standartlar": "CDP Su Güvenliği, ISO 14046",
+    "Azaltım Uygulamaları": "Gri su veya arıtılmış atık suyun soğutmada kullanılması, hava soğutmalı sistemlere geçiş",
+    "Açıklama": "Buharlaşmalı soğutma, enerji verimliliği açısından avantajlı olsa da sürekli ve önemli miktarda tatlı su tüketimi gerektirir."
+  },
+  {
+    "Sektör": "10. VERİ MERKEZLERİ (SOĞUTMA)",
+    "Süreç": "Kapalı Devre (Su Kullanmayan) Soğutmalı Veri Merkezleri",
+    "Su Yoğunluğu": "Düşük",
+    "Su Ayak İzi Türü": "Mavi Su",
+    "Başlıca Su Riski": "Daha yüksek elektrik tüketimi nedeniyle dolaylı, enerji üretimine bağlı su ayak izi",
+    "İlgili Standartlar": "CDP Su Güvenliği, ISO 14046",
+    "Azaltım Uygulamaları": "Yenilenebilir enerjiyle beslenen soğutma sistemleri, serbest hava soğutması",
+    "Açıklama": "Doğrudan su tüketimi çok düşüktür, ancak daha yüksek enerji tüketimi dolaylı bir su ayak izine yol açabilir."
+  }
+]
