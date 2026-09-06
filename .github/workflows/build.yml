@@ -1,42 +1,21 @@
-name: Build Android APK
+[app]
+title = Su Ayak Izi Katalogu
+package.name = suayakizi
+package.domain = org.test
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas,json,html,css,js
+version = 1.0.0
 
-on:
-  push:
-    branches: [ main, master ]
-  workflow_dispatch:
+# Flask ve Android WebView servis bağımlılıkları
+requirements = python3,kivy,flask,jinja2,markupsafe,werkzeug,android
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+orientation = portrait
+fullscreen = 0
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+android.permissions = INTERNET
+android.api = 33
+android.minapi = 21
+android.archs = arm64-v8a
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-
-    - name: Install Buildozer dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libffi-dev libssl-dev build-essential libltdl-dev
-        pip install --upgrade pip setuptools buildozer cython
-
-    - name: Build APK with Buildozer
-      run: |
-        # Eğer proje ana dizindeyse burası çalışır, alt klasördeyse içine girip çalıştırır
-        if [ -d "su-ayak-izi-katalogu" ]; then
-          cd su-ayak-izi-katalogu
-        fi
-        buildozer -v android debug
-
-    - name: Upload APK Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: SuAyakIzi-APK
-        path: |
-          bin/*.apk
-          **/bin/*.apk
-          
+# WebView veya Bootstrap ayarı
+p4a.bootstrap = webview
