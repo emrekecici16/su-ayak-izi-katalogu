@@ -1,0 +1,61 @@
+import json
+import os
+import subprocess
+
+# 1. JSON verisini oku
+with open("su_ayak_izi_sektorleri.json", "r", encoding="utf-8") as f:
+    json_data = f.read()
+
+# 2. HTML Şablonu
+html_template = f"""<!doctype html>
+<html lang="tr" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Su Ayak İzi Sektör Kataloğu</title>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<style>
+body {{ font-family: sans-serif; padding: 20px; background: #eaf7fb; color: #0b2530; }}
+.card {{ background: #fff; padding: 15px; margin-bottom: 10px; border-radius: 8px; border-left: 4px solid #0891b2; }}
+.title {{ font-weight: bold; font-size: 1.1em; }}
+</style>
+</head>
+<body>
+  <h1>Su Ayak İzi Sektör Kataloğu</h1>
+  <div id="results"></div>
+
+  <script id="suayak-data" type="application/json">
+{json_data}
+  </script>
+
+  <script>
+  const DATA = JSON.parse(document.getElementById('suayak-data').textContent);
+  const container = document.getElementById('results');
+  container.innerHTML = DATA.map(item => `
+    <div class="card">
+      <div class="title">${{item['Süreç'] || ''}} - ${{item['Sektör'] || ''}}</div>
+      <p>${{item['Açıklama'] || ''}}</p>
+      <small><b>Tür:</b> ${{item['Su Ayak İzi Türü'] || ''}} | <b>Standart:</b> ${{item['İlgili Standartlar'] || ''}}</small>
+    </div>
+  `).join('');
+  </script>
+</body>
+</html>"""
+
+# 3. index.html dosyasını yaz
+with open("index.html", "w", encoding="utf-8") as f:
+    f.write(html_template)
+
+print("✅ index.html başarıyla oluşturuldu.")
+
+# 4. GitHub'a Otomatik Push Et
+try:
+    subprocess.run(["git", "add", "index.html"], check=True)
+    subprocess.run(
+        ["git", "commit", "-m", "Auto-generate index.html via Termux"],
+        check=True,
+    )
+    subprocess.run(["git", "push"], check=True)
+    print("🚀 Değişiklikler GitHub'a aktarıldı!")
+except Exception as e:
+    print(f"⚠️ Git komutları sırasında hata oluştu: {e}")
