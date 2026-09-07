@@ -20,17 +20,39 @@ jobs:
 
     - name: Install System Dependencies
       run: |
-        sudo apt-get update
-        sudo apt-get install -y build-essential libssl-dev libffi-dev python3-dev zip unzip openjdk-17-jdk ccache autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake
+        sudo apt-get update -y
+        sudo apt-get install -y --no-install-recommends \
+          build-essential \
+          git \
+          ffmpeg \
+          libkrb5-dev \
+          libffi-dev \
+          libssl-dev \
+          libsdl2-dev \
+          libsdl2-image-dev \
+          libsdl2-mixer-dev \
+          libsdl2-ttf-dev \
+          libportmidi-dev \
+          libswscale-dev \
+          libavformat-dev \
+          libavcodec-dev \
+          zlib1g-dev \
+          openjdk-17-jdk \
+          zip \
+          unzip \
+          autoconf \
+          libtool \
+          pkg-config \
+          cmake
 
     - name: Install Buildozer and Cython
       run: |
-        pip install --upgrade pip
+        python -m pip install --upgrade pip setuptools
         pip install "cython<3.0.0" buildozer
 
     - name: Build APK with Buildozer
       run: |
-        buildozer android debug --verbose
+        buildozer android debug
 
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
